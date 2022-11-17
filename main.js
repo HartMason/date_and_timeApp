@@ -10,9 +10,9 @@ const num2StringButton = document.getElementById('num2StringButton')
 
 const displayDate = () => {
   const currentDate = new Date()
+  console.log(new Date())
 
   document.getElementById("display-element").innerHTML = currentDate;
-    console.log(new Date())
 
 }
  
