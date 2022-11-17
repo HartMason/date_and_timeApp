@@ -12,8 +12,12 @@ const displayDate = () => {
   const currentDate = new Date()
 
   document.getElementById("display-element").innerHTML = currentDate;
+    console.log(new Date())
+
 }
  
+
+
 // num2StringInput.addEventListener
 // Write a JavaScript program to convert a number to a string.
 function num2String() {
@@ -85,11 +89,11 @@ if(name && age > 33) {
 console.log(bothTrue('Matt', 34));
 // Write a JavaScript program that runs when 1 of 2 things are true.
 
-const runWhenOneTrue = (num1, num2) => {
-  if(num1 === true  num2 === false) {
-    return 'true';
-  }
-}
+// const runWhenOneTrue = (num1, num2) => {
+//   if(num1 === true  num2 === false) {
+//     return 'true';
+//   }
+// }
 
 
 
